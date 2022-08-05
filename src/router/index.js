@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router'
 
 const route = (path, name, redirect = false, beforeEnter) => {
   return {
@@ -6,15 +6,15 @@ const route = (path, name, redirect = false, beforeEnter) => {
     name,
     redirect,
     beforeEnter,
-    component: (resolve) => import(`@/pages/${name}.vue`).then(resolve),
-  };
-};
+    component: (resolve) => import(`@/pages/${name}.vue`).then(resolve)
+  }
+}
 
-const routes = [route('/', 'PageMain'), route('/:catchAll(.*)', 'Error404')];
+const routes = [route('/', 'PageMain'), route('/:catchAll(.*)', 'Error404')]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes,
-});
+  routes
+})
 
-export default router;
+export default router

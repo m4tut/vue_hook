@@ -22,10 +22,6 @@
 ### `yarn lint`
 Запускает средство поиска ошибок [eslint](https://eslint.org/docs/user-guide/getting-started)
 
-### `yarn lint:fix`
-Запускает средство исправления ошибок [eslint](https://eslint.org/docs/user-guide/getting-started) в автоматическом режиме. \
-Не все ошибки eslint могут быть исправлены данной командой!
-
 ### `yarn format`
 Запускает средство исправления ошибок форматирования [prettier](https://prettier.io/docs/en/index.html)
 

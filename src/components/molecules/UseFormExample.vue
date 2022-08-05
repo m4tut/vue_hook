@@ -1,9 +1,11 @@
 <template>
-  <router-view />
+  <form>
+    <h2>Auth</h2>
+  </form>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'UseFormExample'
 }
 </script>
