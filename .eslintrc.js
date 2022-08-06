@@ -4,7 +4,12 @@ module.exports = {
     es6: true,
     node: true
   },
-  extends: ['plugin:vue/vue3-essential', 'plugin:vue/vue3-strongly-recommended', 'plugin:vue/vue3-recommended', 'eslint:recommended'],
+  extends: [
+    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-strongly-recommended',
+    'plugin:vue/vue3-recommended',
+    'eslint:recommended'
+  ],
   parserOptions: {
     parser: '@babel/eslint-parser'
   },
@@ -125,6 +130,10 @@ module.exports = {
     'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
     'array-bracket-spacing': [2, 'never'],
     'vue/jsx-uses-vars': 2,
-    'vue/multi-word-component-names': [2, { 'ignores': ['Error404'] }]
+    'vue/multi-word-component-names': [2, { 'ignores': ['Error404'] }],
+    'vue/max-attributes-per-line': [2, { singleline: { max: 3 }, multiline: { max: 1 }}],
+    'vue/html-self-closing': [2, { html: { void: 'always', normal: 'never' }, svg: 'always', math: 'always' }],
+    'vue/singleline-html-element-content-newline': 0,
+    'prettier/prettier': 0
   }
 }

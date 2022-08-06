@@ -1,6 +1,8 @@
 <template>
-  <h1>Vue 3 custom hooks</h1>
-  <UseFormExample />
+  <div class="container">
+    <h1 class="text-center text-light">Vue 3 custom hooks</h1>
+    <UseFormExample />
+  </div>
 </template>
 
 <script>

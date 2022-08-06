@@ -13,10 +13,9 @@ body {
   height: 100%;
 
   font-size: $font-size-default;
-  font-family: $font-text-basic;
-  font-weight: 400;
+  font-weight: 500;
   color: $color-text-default;
-  background-color: $color-background-default;
+  background-color: $color-background-secondary;
   position: relative;
   cursor: default;
 }
