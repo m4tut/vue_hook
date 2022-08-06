@@ -77,10 +77,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card {
-  border-radius: 12px;
-}
-
 .btn {
   max-width: max-content;
   border-radius: 24px;

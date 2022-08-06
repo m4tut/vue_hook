@@ -47,3 +47,11 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+
+.card {
+  border-radius: 12px;
+
+  & + & {
+    margin-top: 16px;
+  }
+}
